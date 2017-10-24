@@ -1,0 +1,278 @@
+/*
+ 	El subrayado que incluye la estrella se hace con un ícono y pseudoelementos (:after, :before)
+ 	img portafolio 350x252
+ */
+
+ #imagen{
+ 	width: 25%;
+ }
+ /*subrayado*/
+ .subrayado{
+ 	height: 5px; 
+ 	width:70px;
+ 	display: inline-block;
+ 	background-color:#2C3E50;
+ }
+
+.icono{
+	color: #2C3E50;
+}
+
+.barra {
+  	color: #373B47;
+  	text-decoration: none;
+  	border-radius: 5px;
+}
+
+.barra:hover {
+  	background-color: #FFFFFF;
+  	color: #000;
+  	border: 2px solid white;
+}
+button:hover{
+	background-color: #FFFFFF;
+	color: #000;
+}
+
+h1{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+ h1{
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-weight: bold;
+ 	font-size: 48px;
+ }
+
+ p{
+ 	font-family: 'Lato', sans-serif;
+ }
+
+.barra{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+ li{
+ 	list-style: none;
+ 	display: inline-block;
+ 	text-transform: uppercase;
+	font-weight: bold;
+
+ }
+
+ header{
+ 	outline: 1px solid #2C3E50;	
+ 	background-color: #2C3E50;
+ 	color:#FFFFFF;
+ 	font-family: 'Montserrat', sans-serif;
+ 	margin: 0;
+ 	padding: 0;
+ 	position: fixed;
+  	width: 1349px;
+  	height: 80px;
+	z-index: 2;
+ }
+
+.titulo{
+	margin-top: 40px;
+}
+
+.start{
+	font-size: 32px;
+}
+
+.linkport, .linkab, .linkcont{
+	font-size: 16px;
+	float: right;
+	margin-right: 20px;
+
+}
+
+
+.contenedor2{
+	margin: 0;
+  	padding: 0;
+  	position: absolute;
+	top:55px;
+}
+
+ .inicio{
+	outline: 1px solid pink;
+	background-color: #18BC9C;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	color: white;
+	height: 800px;
+	width: 1349px;
+
+ }
+.profile{
+	margin-top: 80px;
+}
+
+ .portafolio{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	height: 800px;
+	width: 1349px;
+
+ }
+
+.imagenes{
+	position: absolute;
+	top: 1000px;
+}
+
+ .about{
+	background-color: #18BC9C;
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-align: center;
+	height: 800px;
+	width: 1349px;
+ }
+
+.aboutdiv{
+	margin-top: 50px;
+}
+
+ .texto1{
+	font-size: 20px;
+	height: 300px;
+	width: 300px;
+	float: left;
+	margin-left: 290px;
+	margin-top: 100px;
+	text-align: justify;
+ }
+
+ .texto2{
+	font-size: 20px;
+	height: 300px;
+	width: 300px;
+	float: right;
+	margin-right:290px;	
+	margin-top: 100px;
+	text-align: justify;
+ }
+
+ .sub{
+ 	position: absolute;
+ 	left: 595px;
+ 	top: 1750px;
+ }
+
+ .download{
+ 	background-color: #18BC9C;
+ 	border: 2px solid #FFFFFF;
+ 	font-family: 'Lato', sans-serif;
+ 	color: white;
+ 	border-radius: 8px;
+ 	margin-bottom: 0px;
+ 	position: absolute;
+ 	top:2150px;
+ 	height: 50px;
+ 	width: 200px;
+ 	left: 580px;
+ 	font-weight: bold;
+ 	font-size: 20px;
+
+ }
+
+ .contacto{
+	margin: 0;
+	padding: 0;
+	width: 1349px;
+	height: 600px;
+	text-align: center;
+ }
+
+ .sub2{
+ 	position: absolute;
+ 	left: 599px;
+ 	top: 2580px;
+
+ }
+
+ input{
+ 	display: block;
+ 	margin-left: 400px;
+ 	border-radius: 5px;
+ 	margin-bottom: 40px;
+ 	width: 400px;
+ 	height: 30px;
+ 	border-bottom: grey;
+
+ }
+
+ textarea{
+ 	display: block;
+ 	margin-left: 400px;
+ 	border-radius: 5px;
+ 	margin-bottom: 40px;
+ 	width: 400px;
+ 	height: 100px;
+ 	border-bottom: grey;
+ }
+
+ .send{
+ 	background-color: #18BC9C;
+ 	border:1px solid #18BC9C;
+ 	border-radius: 5px;
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 20px;
+ 	color: #FFFFFF;
+ 	margin-right:400px;
+ 	width: 70px;
+ 	height: 30px;
+ }
+
+ footer{
+ 	outline: 1px solid green;
+  	background-color: #2C3E50;
+  	color:#FFFFFF;
+  	margin: 0;
+  	padding: 0;
+  	width: 1349px;
+  	position: absolute;
+  	top:3200px;
+  	text-align: center;
+ }
+
+table, td, tr{
+	text-align: center;
+	border: 1px solid #2C3E50;
+}
+
+td{
+	width: 33%;
+}
+
+.textopie{
+	font-family: 'Montserrat', sans-serif;
+ 	font-weight: bold;
+ 	font-size: 28px;
+}
+
+.textopie2{
+	font-size: 20px;
+}
+#social{
+	margin-right: 10px;
+	font-size: 30px;
+}
+
+.iconos{
+	color: white;
+}
